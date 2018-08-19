@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 200984b4773b5de46968f54ee1516a50
+timeCreated: 1508973429
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: hybrid
+  fontNames:
+  - hybrid
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

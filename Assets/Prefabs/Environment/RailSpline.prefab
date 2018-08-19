@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1127052488134000}
+  m_IsPrefabParent: 1
+--- !u!1 &1127052488134000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4979480569521654}
+  - component: {fileID: 114268514821976930}
+  - component: {fileID: 114787727920845498}
+  m_Layer: 0
+  m_Name: RailSpline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4979480569521654
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1127052488134000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114268514821976930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1127052488134000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c293db8a967ab4e4a99a8d3d0347c5a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 1, y: 1.8098396, z: 0}
+  - {x: 1.44049, y: 1.6456006, z: 0.6652256}
+  - {x: 1.1825305, y: 0.73242265, z: 0.6856057}
+  - {x: 0.07965064, y: 0.73242265, z: 1.1967906}
+  - {x: -1.0232292, y: 0.73242265, z: 1.7079754}
+  - {x: -1.1780509, y: 0.07051211, z: -0.035166625}
+  - {x: -0.1780513, y: 0.07051211, z: -0.035166625}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &114787727920845498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1127052488134000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017df0f4426aa1f408e18db1464725c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spline: {fileID: 114268514821976930}
+  frequency: 300
+  lookForward: 1
+  items:
+  - {fileID: 4016936941134808, guid: b771a817a60254345a9c9d0254d33ff2, type: 2}
